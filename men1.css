@@ -1,0 +1,96 @@
+body{
+	
+	font-size: 12;
+	font-family: Airal;
+}
+div.product{
+	width: 210px;
+	float: left;
+	background-color: white;
+	border-bottom: #d3654c 1px solid;
+	position: relative;
+
+}
+div.pic img{
+ height: 50px;
+	 	width: 50px;
+}
+
+div.product a {
+	float: left;
+	text-align: center;
+	width: 100%;
+
+}
+div.product a .img{
+	margin-top: 10px;
+}
+div.product a .img img{
+	height: 170px;
+	max-width: 100%;
+	border-bottom:#d3654c 5px solid;
+
+}
+div.product a.name {
+	font-weight: bolder;
+	color: black;
+	font-size: 13px;
+	text-decoration: none;
+	margin-top: 10px;
+
+}
+div.product a.name:hover{
+	color:#d3654c;
+}
+div .product div{
+	font-size:16px;
+	font-weight: bold;
+	color: #d3654c;
+	text-indent: 10px;
+	margin:10px 0 10px 0;
+	float: left;
+	width: 100%; 
+}
+div .product a.cart{
+	border-top: #d3654c 1px solid;
+	background: #f2f2f2;
+	line-height: 30px;
+	font-weight: bold;
+    color:#d3654c ;
+    text-decoration: none;
+
+}
+div .product a.cart{
+	border-top: #d3654c 1px solid;
+	
+}
+div .product span{
+	position: absolute; 
+	top: 0px;
+	left: 0px;
+	width: 60px;
+	line-height: 60px;
+	height: 60px;
+	text-align: center;
+	background-color: rgba(225,225,225.0.4);
+	border-radius: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0 0 3px yellow;
+}
+div .product:hover span{
+	background-color: #d3654c;
+} 
+div .product:hover a.img img{
+	opacity: 0.7;/*css 3*/
+}
+ div.price {
+	text-align: center;
+}
+ }
+ div.pic img
+{
+ height: 50px;
+	 	width: 50px;
+}
+	 	

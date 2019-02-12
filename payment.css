@@ -1,0 +1,39 @@
+body{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	height:100vh;
+	background: linear-gradient(45deg, $main, $second);
+	font-family: "Source Sans Pro";
+	
+}
+.tabs {
+display:flex;
+}
+ ul{
+	display:flex;
+	justify-content: space-between;
+	list-style-type: none;
+	padding:0;
+}
+li{
+	margin: 0 30px;
+}
+form{
+	width: 100%;
+}
+   * {
+  display: block;	   
+}
+label{
+	text-transfom: uppercase;
+	font-size:12px;
+	letter-spacing:0.18cm;
+}
+input{
+	width:100%;
+	border:0;
+border-bottom: 1px solid $ube;
+
+}
+	

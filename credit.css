@@ -1,0 +1,26 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(45deg, $main, $second);
+	font-family:"Source Sans Pro"
+}
+.tabs{
+
+}
+	ul{
+		display:flex;
+		justify-content: space-between;
+		list-style: none;
+		padding: 0;
+
+	}
+
+li{
+	margin-left: 0 30px;
+}
+form{
+	width: 100%;
+
+}
